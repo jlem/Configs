@@ -1,0 +1,92 @@
+let colors_name = "php"
+
+"php 
+hi CusrorLine           cterm=bold term=bold ctermbg=234 ctermfg=234
+hi CursorColumn         ctermbg=234 cterm=none
+hi phpStructure         ctermfg=30
+hi phpStructureType     ctermfg=9
+hi phpDefineMethod      ctermfg=30
+hi phpStorageClass2     ctermfg=30
+hi phpDefineMethodName  ctermfg=9
+hi phpDefineClassName   ctermfg=9
+hi phpDefineClassImplementsName ctermfg=7
+hi phpDefineClassImplementsComma ctermfg=240
+hi phpSpecialMethods    ctermfg=7 
+hi phpVarSelector       ctermfg=247  
+hi phpIdentifier        ctermfg=247  
+hi phpSuperGlobal       ctermfg=247 
+hi phpMemberHere        ctermfg=247
+hi phpMemberSelector    ctermfg=240
+hi phpControlParent     ctermfg=30
+hi phpAssign            ctermfg=240
+hi phpDefine            ctermfg=30
+hi phpDefineFuncProto   ctermfg=240
+hi phpSpecialMethods    ctermfg=9
+hi phpSemicolon         ctermfg=240
+hi phpForSemicolon      ctermfg=240
+hi phpObjectOperator    ctermfg=30
+hi phpRepeat            ctermfg=30
+hi phpConditional       ctermfg=30 
+hi phpParent            ctermfg=240
+hi phpBraceClass        ctermfg=30 
+hi phpBraceFunc         ctermfg=30
+hi phpBrace             ctermfg=30 
+hi phpException         ctermfg=30
+hi phpCatchRegion       ctermfg=240
+hi phpFuncBlock         ctermfg=214
+hi phpStructureHere     ctermfg=106
+hi phpFunctions         ctermfg=214
+hi phpSpecialFunction   ctermfg=214
+hi phpQuoteSingle       ctermfg=30
+hi phpQuoteDouble       ctermfg=30
+hi phpStringSingle      ctermfg=30
+hi phpArrayParens       ctermfg=30
+hi phpArrayComma        ctermfg=30
+hi phpArrayPair         ctermfg=30
+hi phpOperator          ctermfg=240
+hi phpRegion            ctermfg=255
+hi phpParentRegion      ctermfg=214
+hi phpClassDefine       ctermfg=106
+hi phpDefineFuncName    ctermfg=106
+hi phpType              ctermfg=106
+hi phpBoolean           ctermfg=106
+hi phpNumber            ctermfg=106
+hi phpDoubleColon       ctermfg=240
+hi phpRelation          ctermfg=255
+hi phpStatement         ctermfg=23
+hi phpEcho              ctermfg=23
+hi phpStaticUsage       ctermfg=9 
+hi phpStaticCall        ctermfg=15
+hi phpStaticAccess      ctermfg=7
+hi phpConstructRegion   ctermfg=214
+hi phpCase              ctermfg=30
+hi phpRegionDelimiter   ctermfg=214
+hi phpRelation          ctermfg=240
+hi phpComment           ctermfg=237
+hi phpDocComment        ctermfg=237
+hi phpAnnotation        ctermfg=237
+hi phpAnnotationGrouping ctermfg=237
+hi phpProtoArrayCheck   ctermfg=237
+hi phpInclude           ctermfg=106
+hi phpStatementRegion   ctermfg=214
+hi phpSPLMethods        ctermfg=106
+
+"html
+hi htmlTag              ctermfg=240
+hi htmlEndTag           ctermfg=240
+hi htmlTagName          ctermfg=240
+hi htmlArg              ctermfg=9
+hi htmlString           ctermfg=106
+hi htmlComment          ctermfg=236
+hi htmlCommentPart      ctermfg=236
+
+"vim
+hi LineNr               ctermfg=236
+
+"NERD
+hi NERDTreeCWD          ctermfg=15
+hi NERDTreeDir          ctermfg=31
+hi NERDTreeDirSlash     ctermfg=31
+hi NERDTreeHelp         ctermfg=240
+hi NERDTreeUp           ctermfg=214
+

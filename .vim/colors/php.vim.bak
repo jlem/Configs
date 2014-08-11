@@ -1,0 +1,53 @@
+let colors_name = "php"
+
+hi phpStructure         ctermfg=15
+hi phpDefineMethod      ctermfg=15
+hi phpDefineMethodName  ctermfg=15
+hi phpDefineClassName   ctermfg=15 
+hi phpStorageClass2     ctermfg=15
+hi phpDefineClassImplementsName ctermfg=7 cterm=bold
+hi phpSpecialMethods    ctermfg=7 
+hi phpVarSelector       ctermfg=23  
+hi phpIdentifier        ctermfg=23  
+hi phpSuperGlobal       ctermfg=23 
+hi phpMemberHere        ctermfg=23 
+hi phpMemberSelector    ctermfg=23
+hi phpControlParent     ctermfg=255
+hi phpAssign            ctermfg=255
+hi phpDefine            ctermfg=255
+hi phpDefineFuncProto   ctermfg=202
+hi phpSemicolon         ctermfg=37
+hi phpObjectOperator    ctermfg=7
+hi phpRepeat            ctermfg=23
+hi phpConditional       ctermfg=23 
+hi phpControlParent     ctermfg=23 
+hi phpBraceClass        ctermfg=23 
+hi phpBraceFunc         ctermfg=23
+hi phpBrace             ctermfg=23 
+hi phpFuncBlock         ctermfg=228
+hi phpStructureHere     ctermfg=228
+hi phpFunctions         ctermfg=101
+hi phpSpecialFunction   ctermfg=228
+hi phpComment           ctermfg=238
+hi phpQuoteSingle       ctermfg=255 cterm=none
+hi phpArrayParens       ctermfg=159
+hi phpOperator          ctermfg=255
+hi phpRegion            ctermfg=255
+hi phpParentRegion      ctermfg=228
+hi phpClassDefine       ctermfg=7 cterm=bold
+hi phpStringSingle      ctermfg=9
+hi phpType              ctermfg=202
+hi phpBoolean           ctermfg=202
+hi phpNumber            ctermfg=5
+hi phpDoubleColon       ctermfg=5
+hi phpRelation          ctermfg=255
+hi phpStatement         ctermfg=228 
+hi phpEcho              ctermfg=228 
+hi phpStaticCall        ctermfg=7
+hi phpStaticAccess      ctermfg=7
+hi phpParent            ctermfg=23
+hi phpStatementRegion   ctermfg=228
+hi phpConstructRegion   ctermfg=228
+hi phpCase              ctermfg=240
+
+hi LineNr               ctermfg=237

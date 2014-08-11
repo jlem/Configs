@@ -1,0 +1,26 @@
+if exists("b:current_syntax")
+  finish
+endif
+
+if !exists("main_syntax")
+  let main_syntax = 'php'
+endif
+
+syn match phpMethodName "function \(.\+\)("hs=s+9,he=e-1
+
+" Define the default highlighting.
+" For version 5.8 and later: only when an item doesn't have highlighting yet
+if !exists("did_php_syn_inits")
+
+  hi def link phpMethodName    Type
+
+endif
+
+let b:current_syntax = "php"
+
+if main_syntax == 'php'
+  unlet main_syntax
+endif
+
+" vim: ts=8 sts=2 sw=2 expandtab
+
